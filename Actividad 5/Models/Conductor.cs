@@ -21,6 +21,11 @@ namespace Actividad_5.Models
             Nombre = nombre;
         }
 
+        public static Conductor Build(string id, string identificacion, string nombre )
+        {
+            return new Conductor(id, identificacion, nombre);
+        }
+
         public void AddConductor(string pasajeroId)
         {
             this.ConductoresBus.Add(new ConductorBus(id: Guid.NewGuid().ToString(), busId: this.Id, conductorId: pasajeroId));
