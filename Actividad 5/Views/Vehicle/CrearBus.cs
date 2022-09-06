@@ -11,7 +11,7 @@ namespace Actividad_5.Views.Vehicle
     {
         public void Render(Bus obj)
         {
-            Console.WriteLine($"Se crea un bus asignado para la ruta: {obj.Ruta}");
+            Console.WriteLine($"Se crea un bus asignado para la ruta {obj.Ruta}");
         }
     }
 }

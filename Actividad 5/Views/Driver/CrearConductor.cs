@@ -11,7 +11,7 @@ namespace Actividad_5.Views.Driver
     {
         public void Render(Conductor obj)
         {
-            Console.WriteLine($"Un conductor ha sido creado con identificación: {obj.Id}");
+            Console.WriteLine($"Un conductor ha sido creado con el Id {obj.Id} y nombre {obj.Nombre}");
         }
     }
 }
